@@ -6,6 +6,6 @@ paginate: 8
 permalink: /:title
 
 title: ExamTom.com
-url: http://www.examtom.com
+url: http://tangzhezhi.github.io/tangblog
 feed: /atom.xml
-author_info: <a href="http://http://www.examtom.com/">ExamTom</a>
+author_info: <a href="http://tangzhezhi.github.io/tangblog">ExamTom</a>
