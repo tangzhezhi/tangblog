@@ -1,9 +1,9 @@
 auto: true
-
+baseurl: /tangblog
 markdown: rdiscount
 pygments: true
 paginate: 8
-permalink: /:title
+permalink: /:year/:month/:day/:title
 
 title: /tangblog
 url: http://tangzhezhi.github.io/tangblog/
