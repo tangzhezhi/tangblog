@@ -3,9 +3,9 @@ markdown: rdiscount
 pygments: true
 paginate: 8
 permalink: /:year/:month/:day/:title
-simple_search: http://google.com/search  #搜索引擎  
-title: tangblog
+#simple_search: http://google.com/search  #搜索引擎  
+#title: tangblog
 #url: http://tangzhezhi.github.io/tangblog
-baseurl:/tangblog
+baseurl: /tangblog
 #feed: /atom.xml
 #author_info: <a href="http://tangzhezhi.github.io/tangblog">tangblog</a>
