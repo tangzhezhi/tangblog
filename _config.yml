@@ -9,3 +9,7 @@ url: http://tangzhezhi.github.io/tangblog/
 baseurl: /tangblog
 feed: /atom.xml
 author_info: <a href="http://tangzhezhi.github.io/tangblog">tangblog</a>
+comments :
+	provider : duoshuo
+    duoshuo : 
+    short_name : examtom

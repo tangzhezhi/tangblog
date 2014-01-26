@@ -33,7 +33,7 @@ $(document).ready(function(){
     });
     //**评论的代码也删掉哦***
     //***********************
-
+    
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');
         if(href){
