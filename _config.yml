@@ -1,5 +1,4 @@
 auto: true
-baseurl: /tangblog
 markdown: rdiscount
 pygments: true
 paginate: 8
