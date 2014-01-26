@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/js/prettify/prettify.css" />
+<link rel="stylesheet" href="/tangblog/js/prettify/prettify.css" />
 <style type="text/css">
     body { background:#e8e8e8; }
     @media screen and (max-width: 750px){
@@ -63,17 +63,17 @@ layout: default
         <h2>Opinion</h2>
         <ul class="artical-list">
         {% for post in site.categories.opinion%}
-            <li><a href=".{{ post.url }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 
         <h2>Project</h2>
         <ul class="artical-list">
         {% for post in site.categories.project%}
-            <li><a href=".{{ post.url }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
     </div>
 </div>
 
-<script src="/js/post.js" type="text/javascript"></script>
+<script src="/tangblog/js/post.js" type="text/javascript"></script>
