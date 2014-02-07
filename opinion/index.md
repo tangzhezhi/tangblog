@@ -5,9 +5,9 @@ layout: home
 <div class="index-content opinion">
     <div class="section">
         <ul class="artical-cate">
-            <li><a href="/tangblog"><span>Blog</span></a></li>
-            <li class="on" style="text-align:center"><a href="#"><span>Opinion</span></a></li>
-            <li style="text-align:right"><a href="./../project"><span>Project</span></a></li>
+            <li><a href="../"><span>Blog</span></a></li>
+            <li class="on" style="text-align:center"><a href="#"><span>散记</span></a></li>
+            <li style="text-align:right"><a href="./../project"><span>考试汤</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
