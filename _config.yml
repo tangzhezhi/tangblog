@@ -5,7 +5,7 @@ paginate: 8
 permalink: /:title
 simple_search: http://google.com/search  #搜索引擎  
 title: tangblog
-url: http://tangzhezhi.github.io/tangblog/
+url: www.examtom.com/tangblog/
 baseurl: /tangblog
 feed: /atom.xml
 author_info: <a href="http://tangzhezhi.github.io/tangblog">tangblog</a>
