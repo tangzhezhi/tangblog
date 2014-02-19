@@ -20,6 +20,7 @@ description: jQuery插件的写法(备忘)。
 	
 比如我们要实现当光标移动到a标签上时，a标签向右移动一段距离，离开时a位置恢复。实现方法如下：
 
+```javascript
 	$(document).ready(function() { 
     	$("#catagory a").hover(function() { 
         	$(this).animate({ paddingLeft: "20px" }, { queue: false, duration: 500 }); 
@@ -27,7 +28,7 @@ description: jQuery插件的写法(备忘)。
         		$(this).animate({ paddingLeft: "0" }, { queue: true, duration: 500 }); 
     	}); 
 	}); 
-	
+```	
 现在我们将这个方法进行扩展，写成jQuery插件的形式，以后也能在别的项目中使用，并且可以方便的更改一些属性值，现在我们来看看jQuery插件的写法。
 
 2、jQuery插件的结构
