@@ -10,12 +10,12 @@ description: jQuery插件的写法(备忘)。
 
 先看看html代码
 
-<ul id="catagory"> 
-    <li><a href="#">jQuery</a></li> 
-    <li><a href="#">Asp.net</a></li> 
-    <li><a href="#">Sql Server</a></li> 
-    <li><a href="#">CSS</a></li> 
-</ul> 
+```<ul id="catagory"> ```
+```    <li><a href="#">jQuery</a></li> ```
+```    <li><a href="#">Asp.net</a></li> ```
+```    <li><a href="#">Sql Server</a></li> ```
+```    <li><a href="#">CSS</a></li> ```
+```</ul> ```
 比如我们要实现当光标移动到a标签上时，a标签向右移动一段距离，离开时a位置恢复。实现方法如下：
 
 $(document).ready(function() { 
