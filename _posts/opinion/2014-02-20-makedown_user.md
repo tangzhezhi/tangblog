@@ -33,6 +33,8 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 ```
 
+$$\sum_{i\to 2}^i$$
+
 * 或者高亮一段代码：
 
 ```python
