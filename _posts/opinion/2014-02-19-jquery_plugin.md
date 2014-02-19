@@ -9,16 +9,16 @@ description: jQuery插件的写法(备忘)。
 1、概述
 
 先看看html代码
-```
+<code>  
 <ul id="catagory"> 
     <li><a href="#">jQuery</a></li> 
     <li><a href="#">Asp.net</a></li> 
     <li><a href="#">Sql Server</a></li> 
     <li><a href="#">CSS</a></li> 
 </ul> 
-```
+</code>  
 比如我们要实现当光标移动到a标签上时，a标签向右移动一段距离，离开时a位置恢复。实现方法如下：
-
+<code>
 $(document).ready(function() { 
     $("#catagory a").hover(function() { 
         $(this).animate({ paddingLeft: "20px" }, { queue: false, duration: 500 }); 
@@ -26,6 +26,7 @@ $(document).ready(function() {
         $(this).animate({ paddingLeft: "0" }, { queue: true, duration: 500 }); 
     }); 
 }); 
+</code>
 现在我们将这个方法进行扩展，写成jQuery插件的形式，以后也能在别的项目中使用，并且可以方便的更改一些属性值，现在我们来看看jQuery插件的写法。
 
 2、jQuery插件的结构
