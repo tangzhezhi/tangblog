@@ -56,5 +56,6 @@ description: Oracle undo 故障解决 (原创)
 	（4）修改pfile，创建spfile，并正常启动
 	删除：*._corrupted_rollback_segments='_SYSSMU11$','_SYSSMU12$','_SYSSMU13$'
 	
-####参考<http://blog.csdn.net/tianlesoftware/article/details/6261475>
+####参考[Current online Redo 和 Undo 损坏的处理方法][1]
+[1]: http://blog.csdn.net/tianlesoftware/article/details/6261475
 ----
