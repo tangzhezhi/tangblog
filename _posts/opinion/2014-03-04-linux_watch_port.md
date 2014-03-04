@@ -7,7 +7,7 @@ description: linux 查看端口占用
 
 ##									linux 查看端口占用
 
-```linux
+
 使用命令：比如查看tomcat占用的端口
 	ps -aux | grep tomcat
 解释：
@@ -37,7 +37,7 @@ ps 的参数非常多, 在此仅列出几个常用的参数并大略介绍含义
 	kill -9 pid 
 这样你需要的端口就空闲出来了。
 	
-```	
+
 
 
 
